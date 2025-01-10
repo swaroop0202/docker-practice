@@ -5,3 +5,4 @@ RUN echo "name=${NAME}"
 ENV name=bt\
     course=devops\
     trainer=siva
+CMD [ "sleep","100" ]
