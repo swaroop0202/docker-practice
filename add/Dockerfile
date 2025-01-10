@@ -4,4 +4,4 @@ RUN rm -rf /usr/share/nginx/html/index.html
 LABEL name="swaroop"\
       course="devops"
 CMD ["nginx","-g","daemon off;"]
-ADD https://raw.githubusercontent.com/swaroop0202/expenses-documention/refs/heads/main/frontend.MD /tmp/frontend
+ADD https://raw.githubusercontent.com/swaroop0202/expenses-documention/refs/heads/main/frontend.MD /tmp/file
