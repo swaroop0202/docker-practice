@@ -1,4 +1,4 @@
 ARG version
 FROM almalinux:${version}
-ARG name=swaroop
-ARG course=devops
+ARG name=swaroop\
+    course=devops
