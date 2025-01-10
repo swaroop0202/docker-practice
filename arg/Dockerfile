@@ -1,5 +1,5 @@
 ARG version
-ARG name
+ARG NAME
 FROM almalinux:${version}
-RUN echo "name=${name}"
+RUN echo "name=${NAME}"
     
